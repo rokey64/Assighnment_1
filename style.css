@@ -1,3 +1,45 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* Start Top Area */
+.top-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+.title{
+    font-size: 60px;
+    line-height: 78px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.orange-color{
+    color: #fc8b47;
+}
+.top-area-des{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #828282;
+    margin-bottom: 50px;
+}
+.half-area{
+    width: 45%;
+    padding-left: 5%;
+}
+.half-area img{
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    border-radius: 100px;
+    font-weight: 600;
+}
+/* End Top Area */
+/* Start About Secton */
+.about-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+/* End About Secton */
