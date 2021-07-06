@@ -157,6 +157,45 @@ body{
     margin: 0px 75px;
 }
 /* End Social Media */
+/* Start Customar Section */
+.customar{
+    margin-right: 6%;
+    padding-bottom: 100px;
+}
+.customar-item{
+    display: flex;
+    margin-top: 50px;
+}
+.customar-half-area-1{
+    width: 40%;
+}
+.customar-half-area-1 img{
+    width: 100%;
+}
+.customar-half-area-2{
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    padding-bottom: 30px;
+
+}
+.customar-half-area-3{
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(14, 173, 88), rgb(4, 12, 12));
+    border-image-slice: 1;
+    padding-bottom: 30px;
+}
+/* End Customar Section */
 #blog-section{
     padding-bottom: 100px;
     margin: 0 5%;
@@ -199,41 +238,23 @@ body{
     padding: 10px 30px;
 }
 /* End Blog section */
-/* Start Customar Section */
-.customar{
-    margin: 0 5%;
+/* Start footer Srection */
+footer{
+    padding-top: 30px;
     padding-bottom: 100px;
+    background: #0B0D17;
 }
-.customar-item{
-    display: flex;
-    margin-top: 50px;
+.footer-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: white;
 }
-.customar-half-area-1{
-    width: 40%;
+.footer-pera{
+    text-align: center;
+    margin: 0px 24px;
+    font-size: 16px;
+    color: white;
 }
-.customar-half-area-1 img{
-    width: 100%;
-}
-.customar-half-area-2{
-    width: 25%;
-    margin-left: 5%;
-    padding-left: 20px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    border-left: 7px solid;
-    border-image: linear-gradient(orange, tomato);
-    border-image-slice: 1;
-    padding-bottom: 30px;
-
-}
-.customar-half-area-3{
-    width: 25%;
-    margin-left: 5%;
-    padding-left: 20px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 5px;
-    border-left: 7px solid;
-    border-image: linear-gradient(rgb(14, 173, 88), rgb(4, 12, 12));
-    border-image-slice: 1;
-    padding-bottom: 30px;
-}
+/* End Footer Section */
